@@ -12,6 +12,6 @@
 *.tfplan
 
 # .pem files
-*.pem
+#*.pem
 
 backend_local.tf
