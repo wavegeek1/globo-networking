@@ -65,5 +65,5 @@ resource "aws_security_group" "ingress" {
   revoke_rules_on_delete = null
   tags                   = local.common_tags
   tags_all               = {}
-  vpc_id                 = "vpc-0c6aa33213aad3cc6"
+  vpc_id                 = "vpc-0dccaee22384a401a"
 }
