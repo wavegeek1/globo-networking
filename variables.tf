@@ -30,5 +30,11 @@ variable "environment" {
     description = "(Optional) Environment of all resources"
 }
 
+variable "beilling_code" {
+    type = string
+    description = "(Optional) Billing Code"
+}
+
+
 
 
