@@ -16,7 +16,7 @@ data "aws_availability_zones" "available" {}
 # RESOURCES
 ##################################################################################
 locals {
-  common_tags   = {
+  common_tags = {
     Environment = var.Environment
     BillingCode = var.billing_code
     Workspace   = terraform.workspace
