@@ -35,5 +35,6 @@ variable "cidr_block" {
 variable "public_subnets" {
   type        = map(string)
   description = "(Optional) Map of public subnets to create with CIDR blocks. Key will be used as subnet name with prefix. Default: {subnet-1 ="
+
 }
 
